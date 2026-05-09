@@ -10,7 +10,7 @@
 
 ---
 
-## 🎯 Project goals
+## Project goals
 
 This repository serves a dual purpose:
 
@@ -23,7 +23,7 @@ Every notebook explicitly states:
 
 ---
 
-## ❓ Research questions
+## Research questions
 
 1. What share of professional developers entered tech from non-technical backgrounds?
 2. How do self-taught developers compare to formally educated ones?
@@ -35,7 +35,7 @@ Every notebook explicitly states:
 
 ---
 
-## 📁 Repository structure
+## Repository structure
 
 ```
 how-to-transition-to-tech/
@@ -60,16 +60,16 @@ how-to-transition-to-tech/
 
 ---
 
-## 🚀 How to run
+## How to run
 
 ### Option A — Google Colab (no installation)
 
-Click the "Open in Colab" badge at the top of any notebook, then upload the dataset when prompted.
+Open any notebook in Colab and upload the dataset when prompted.
 
 ### Option B — Local execution
 
 ```bash
-git clone https://github.com/<your-username>/how-to-transition-to-tech.git
+git clone https://github.com/Codex-Vicmath/how-to-transition-to-tech.git
 cd how-to-transition-to-tech
 pip install -r requirements.txt
 jupyter lab
@@ -79,18 +79,18 @@ Download the dataset from [survey.stackoverflow.co](https://survey.stackoverflow
 
 ---
 
-## 🛠️ Tech stack
+## Tech stack
 
-- **Python 3.10+**
-- **pandas** — data manipulation
-- **numpy** — numerical operations
-- **matplotlib + seaborn** — static visualizations
-- **plotly** — interactive charts
-- **jupyter** — notebook environment
+- Python 3.10+
+- pandas — data manipulation
+- numpy — numerical operations
+- matplotlib + seaborn — static visualizations
+- plotly — interactive charts
+- jupyter — notebook environment
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
@@ -98,9 +98,8 @@ The Stack Overflow Developer Survey data is published by Stack Exchange, Inc. un
 
 ---
 
-## 👤 About the author
+## About the author
 
-**Víctor Aguilar** — Mathematics & Physics graduate from Universidad del Valle (Colombia) with 18+ years of teaching experience. Currently delivering a data analytics bootcamp and exploring the intersection of education, data science, and AI.
+**Víctor Aguilar** — Mathematics and Physics graduate from Universidad del Valle (Colombia) with 18+ years of teaching experience. Currently delivering a data analytics bootcamp and exploring the intersection of education, data science, and AI.
 
-- LinkedIn: [Víctor Andrés Aguilar](https://www.linkedin.com/in/<your-handle>)
-- Email: <your-email>
+Contact: victor.edu.1028@gmail.com

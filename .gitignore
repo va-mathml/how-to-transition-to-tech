@@ -1,0 +1,25 @@
+# Data files (too large for GitHub)
+data/*.csv
+data/*.zip
+data/*.tsv
+data/*.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+
+# Environment
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

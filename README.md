@@ -37,3 +37,71 @@ Every notebook explicitly states:
 ---
 
 ## Repository structure
+
+```
+how-to-transition-to-tech/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── data/
+│   └── README.md                 # how to download the dataset
+├── notebooks/
+│   ├── 01_exploration.ipynb      # EDA — what the data can tell us
+│   ├── 02_data_cleaning.ipynb    # cleaning multi-valued strings
+│   ├── 03_career_paths.ipynb     # who transitions and how
+│   ├── 04_skills_analysis.ipynb  # tools that successful changers use
+│   ├── 05_salary_analysis.ipynb  # compensation across entry paths
+│   └── 06_colombia_focus.ipynb   # local case study
+├── src/
+│   └── utils.py                  # reusable helper functions
+└── reports/
+    ├── figures/                  # exported visualizations
+    └── key_insights.md           # final findings
+```
+
+> Notebooks 03–06 are in progress.
+
+---
+
+## How to run
+
+### Option A — Google Colab (no installation)
+
+Open any notebook in Colab and upload the dataset when prompted.
+
+### Option B — Local execution
+
+```bash
+git clone https://github.com/va-mathml/how-to-transition-to-tech.git
+cd how-to-transition-to-tech
+pip install -r requirements.txt
+jupyter lab
+```
+
+Download the dataset from [survey.stackoverflow.co](https://survey.stackoverflow.co/) and place it in the `data/` folder renamed as `results.csv`.
+
+---
+
+## Tech stack
+
+- Python 3.10+
+- pandas — data manipulation
+- numpy — numerical operations
+- matplotlib + seaborn — static visualizations
+- plotly — interactive charts
+- jupyter — notebook environment
+
+---
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+The Stack Overflow Developer Survey data is published by Stack Exchange, Inc. under the Open Database License (ODbL) 1.0.
+
+---
+
+## About the author
+
+**Víctor Aguilar** — Mathematics and Physics graduate from Universidad del Valle (Colombia) with 18+ years of teaching experience. Currently delivering a data analytics bootcamp and exploring the intersection of education, data science, and AI.
+
+Contact: [victor.edu.1028@gmail.com](mailto:victor.edu.1028@gmail.com)
